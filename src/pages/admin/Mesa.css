@@ -1,0 +1,104 @@
+/* panel.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.iconosbarra {
+  display: flex;
+  align-items: center;
+  color: #8e8b8b;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 60px; /* Añadido para evitar que el contenido se solape con la barra de navegación */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding-top: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 200px; /* Añadido para dejar espacio para la barra lateral */
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #f7f7f7;
+  background-color: #e6f7ff;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table td:last-child {
+  text-align: center;
+}

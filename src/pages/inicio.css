@@ -1,0 +1,197 @@
+bodyr {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Color de fondo gris claro */
+  color: #333; /* Color de texto negro */
+}
+
+/* Estilos para la barra de navegación */
+.navbarr {
+  background-color: #424243; /* Azul */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative; /* Añadido para posicionar de forma relativa */
+  z-index: 1; /* Añadido para definir el índice z */
+}
+
+.navbarr h1 {
+  margin: 0;
+}
+
+/* Estilos para el contenedor principal */
+.containerr {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px; /* Espaciado interno aumentado */
+}
+
+/* Estilos para el título principal */
+.page-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para la sección de contenido */
+.content-wrapper {
+  text-align: center;
+}
+
+.restaurant-image {
+  max-width: 100%; /* Reducción del tamaño de la imagen */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.restaurant-description p {
+  font-size: 18px; /* Tamaño de fuente aumentado */
+  margin: 20px 0;
+}
+
+/* Estilos para la sección "¿Quiénes somos?" */
+.separator {
+  margin-top: 40px;
+  border-top: 2px solid #5d5ff4; /* Azul */
+  padding-top: 20px;
+  text-align: center;
+}
+
+.separator h2,
+.separator p {
+  margin-bottom: 20px;
+  color: #333; /* Color de texto negro */
+}
+
+.about-image {
+  max-width: 80%; /* Reducción del tamaño de la imagen */
+  height: auto;
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos para el menú */
+.menu-section {
+  margin-top: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #333;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.menu-item img {
+  max-width: 100px; /* Tamaño máximo de la imagen del menú */
+  height: auto;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.menu-item h3,
+.menu-item p {
+  color: white; /* Color de texto blanco */
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para el botón de login */
+.navbarr .btn-primary {
+  padding: 8px 16px; /* Ajuste del padding */
+  font-size: 16px; /* Tamaño de fuente */
+  color: white; /* Color de texto */
+  background-color: #5d5ff4; /* Color de fondo azul */
+  border: none; /* Eliminación del borde */
+  border-radius: 4px; /* Borde redondeado */
+  cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+  outline: none; /* Eliminar el contorno al enfocar */
+}
+
+.navbarr .btn-primary:hover {
+  background-color: #4a4cff; /* Color de fondo al pasar el mouse */
+}
+
+.restaurant-image {
+  max-width: 50%; /* Reducción del tamaño de la imagen al 50% del contenedor */
+  float: right; /* Alineación a la derecha */
+  margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilos para la sección de contenido */
+.content-wrapper {
+  text-align: center;
+}
+.custom-button {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  cursor: pointer;
+  border: none;
+  background: #2d39e2;
+  color: ghostwhite;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+  display: inline-flex;
+  align-items: center;
+  transition: background 0.4s ease;
+}
+
+.custom-button svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+}
+
+.custom-button:hover {
+  background: #150a73;
+}
+
+.custom-button:active {
+  transform: scale(0.95);
+}
+/* Agrega estos estilos en tu archivo CSS */
+
+.custom-button {
+  margin-right: 10px; /* Ajusta la separación horizontal entre los botones */
+}
+
+
+
+.navbarr .button-container a {
+  text-decoration: none;
+}
+
+.navbarr .button-container a:hover {
+  text-decoration: none;
+}
+
+/* Elimina la línea de abajo que aparece en los enlaces */
+.navbarr .button-container a:focus, .navbarr .button-container a:active {
+  outline: none;
+}
+.banner-image {
+  width: 100%;
+  max-height: 200px; /* Cambiar a max-height en lugar de height */
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

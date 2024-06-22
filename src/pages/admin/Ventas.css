@@ -1,0 +1,103 @@
+/* Estilos CSS mejorados */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 400%;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  padding-top: 60px;
+  height: 1000vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.contenido {
+  padding: 20px;
+  flex: 1;
+}
+
+.titulo {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de ventas */
+.tabla-ventas {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-y: auto; /* Permitir desplazamiento vertical */
+  max-height: 400px; /* Altura máxima de la tabla */
+}
+
+.tabla-ventas th,
+.tabla-ventas td {
+  border: 1px solid #ddd;
+  padding: 10px; /* Aumentar el padding para una apariencia más espaciada */
+  text-align: left;
+}
+
+.tabla-ventas th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.tabla-ventas tr:nth-child(even) {
+  background-color: #f9f9f9; /* Cambiar el color de fondo para las filas pares */
+}
+
+.tabla-ventas tr:hover {
+  background-color: #f0f0f0; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.total-column {
+  font-weight: bold;
+}
+
+/* Estilos para el ícono y título */
+.icono-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.icono-titulo h2 {
+  margin-left: 10px; /* Incrementar el espacio entre el ícono y el título */
+}

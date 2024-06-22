@@ -1,0 +1,263 @@
+/* Estilos CSS mejorados */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 400%;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  padding-top: 60px;
+  height: 1000vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.contenido {
+  padding: 20px;
+  flex: 1;
+}
+
+.titulo {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de ventas */
+.tabla-ventas {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-y: auto; /* Permitir desplazamiento vertical */
+  max-height: 400px; /* Altura máxima de la tabla */
+}
+
+.tabla-ventas th,
+.tabla-ventas td {
+  border: 1px solid #ddd;
+  padding: 10px; /* Aumentar el padding para una apariencia más espaciada */
+  text-align: left;
+}
+
+.tabla-ventas th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.tabla-ventas tr:nth-child(even) {
+  background-color: #f9f9f9; /* Cambiar el color de fondo para las filas pares */
+}
+
+.tabla-ventas tr:hover {
+  background-color: #f0f0f0; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.total-column {
+  font-weight: bold;
+}
+
+/* Estilos para el ícono y título */
+.icono-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.icono-titulo h2 {
+  margin-left: 10px; /* Incrementar el espacio entre el ícono y el título */
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+.terminal_toolbar {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: linear-gradient(#504b45 0%, #3c3b37 100%);
+}
+
+.butt {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 5px;
+  font-size: 8px;
+  height: 12px;
+  width: 12px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 100%;
+  background: linear-gradient(#7d7871 0%, #595953 100%);
+  text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+  box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
+}
+
+.btn-color {
+  background: #ee411a;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.user {
+  color: #d5d0ce;
+  margin-left: 6px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.terminal_body {
+  background: rgba(56, 4, 40, 0.9);
+  height: calc(100% - 30px);
+  padding-top: 2px;
+  margin-top: -1px;
+  font-size: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-y: auto;
+}
+
+.terminal_promt {
+  display: flex;
+}
+
+.terminal_promt span {
+  margin-left: 4px;
+}
+
+.terminal_user {
+  color: #7eda28;
+}
+
+.terminal_location {
+  color: #4878c0;
+}
+
+.terminal_bling {
+  color: #dddddd;
+}
+
+.terminal_cursor {
+  display: block;
+  height: 14px;
+  width: 5px;
+  margin-left: 10px;
+  animation: curbl 1200ms linear infinite;
+}
+
+@keyframes curbl {
+  0% {
+      background: #ffffff;
+  }
+  49% {
+      background: #ffffff;
+  }
+  60% {
+      background: transparent;
+  }
+  99% {
+      background: transparent;
+  }
+  100% {
+      background: #ffffff;
+  }
+}
+
+.log {
+  margin-left: 4px;
+}
+/* Ventas.css */
+.card {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.iconosbarra {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.nav-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

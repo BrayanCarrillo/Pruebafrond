@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 4px;
+  text-align: left;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  padding-top: 60px;
+  height: 200vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.content {
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+  white-space: nowrap; /* Evitar que el título se divida en varias líneas */
+  overflow: hidden; /* Ocultar el texto que se desborda */
+  text-overflow: ellipsis; /* Agregar puntos suspensivos (...) al texto que se desborda */
+}
+
+.card-content {
+  margin-bottom: 20px;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 2px 0; /* Cambiar el margen superior a 20px y quitar el margen derecho e izquierdo */
+}
+
+.form-label {
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #424242;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #333638;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-bottom: 100px; /* Agregar margen inferior para separar las tarjetas */
+}
+
+.table-wrapper {
+  flex: 1; /* Hacer que este contenedor ocupe todo el espacio disponible */
+  margin-right: 10px; /* Agregamos un pequeño margen derecho para separarlo del siguiente contenedor */
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 2px; /* Cambiar el margen superior a 20px y quitar el margen derecho e izquierdo */
+}

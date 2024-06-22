@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.navbar h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding-top: 60px;
+    height: 100vh;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+    flex: 1;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+.menu-list {
+    margin-bottom: 20px;
+}
+
+.add-category-btn, .delete-category-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.menu-table-wrapper {
+    display: flex;
+}
+
+.menu-table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid #007bff;
+    background-color: #e6f7ff;
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.menu-table td:last-child {
+    text-align: center;
+}
+
+.category {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.category h3 {
+    margin-top: 0;
+}
+
+.category-controls {
+    margin-bottom: 10px;
+}
+
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #007bff;
+    background-color: #e6f7ff;
+}
+
+.category-table th, .category-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.category-table td:last-child {
+    text-align: center;
+}
+
+.edit-btn, .delete-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+
+.iconos {
+    display: flex;
+    align-items: center;
+}
+
+.iconosbarra {
+    display: flex;
+    align-items: center;
+    color:#8e8b8b
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container label {
+    margin-right: 10px;
+}
+
+.input-container input {
+    margin-right: 10px; /* Agrega un margen entre el campo de entrada y el botón */
+}

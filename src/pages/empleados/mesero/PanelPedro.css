@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.iconosbarra {
+  display: flex;
+  align-items: center;
+  color: #8e8b8b;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding-top: 60px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Estilos para las tablas */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: left;
+}
+
+.table th {
+  background-color: white;
+  color: rgb(4, 4, 4);
+  font-weight: bold;
+}
+
+.table td:last-child,
+.table th:last-child {
+  text-align: left;
+}
+
+/* Estilos de resaltado al pasar el cursor sobre las filas */
+.table-hover tbody tr:hover {
+  background-color: #cce5ff;
+  cursor: pointer;
+}
+
+/* Estilos específicos para cada tabla */
+.table1 {
+  background-color: white;
+}
+
+.table2 {
+  background-color: white;
+}
+
+/* Estilos de los botones */
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
